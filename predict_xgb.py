@@ -26,7 +26,7 @@ if st.button('Result'):
 
   if (predict_xgb == 0):
     xgb_detection = 'REAL NEWS'
-  else (predict_xgb == 1):
+  else :
     xgb_detection = 'FAKE NEWS'
 
 
